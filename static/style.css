@@ -1,0 +1,409 @@
+.text-white {
+    color: black
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar a {
+    margin-left: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-nav li {
+    margin: 0 25px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white
+}
+
+.open-modal-btn {
+    position: absolute;
+    top: 1 rem;
+    right: 1rem;
+    z-index: 1001;
+}
+
+.open-modal-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1001;
+}
+
+.open-modal-btn i {
+    font-size: 2rem;
+    color: blue;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.open-modal-btn i:hover {
+    background-color: #2739c0;
+}
+
+
+.highlight {
+    background-color: yellow;
+}
+
+.navbar .dropdown .dropdown-content {
+    display: hidden;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.submenu-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding-left: 20px;
+}
+
+
+.submenu:hover .submenu-content {
+    display: block;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+#fcf-form label.fcf-label {
+    color: black;
+}
+
+
+
+/* CSS for images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* CSS for sections */
+section {
+    padding: 50px 0;
+}
+
+/* Additional styling for specific sections */
+#about,
+#community {
+    background-color: #f9f9f9;
+}
+
+#about h2,
+#recommendation h2,
+#community h2,
+#imagination h2 {
+    color: #333;
+}
+
+#about p,
+#recommendation p,
+#community p,
+#imagination p {
+    color: #666;
+}
+
+.dropbtn {
+    border-radius: 0;
+    border: initial;
+    background: initial;
+}
+
+.warning-message {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: large;
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 10px;
+    border: 1px solid #ff6666;
+    border-radius: 5px;
+    z-index: 9999;
+    display: none;
+    color: white;
+}
+
+/* contact_style.css */
+
+/* Custom styles for contact form */
+#contact-form {
+    margin-top: 50px;
+}
+
+/* Custom styles for form labels */
+.form-label {
+    color: #333;
+    /* Adjust color as needed */
+    font-weight: bold;
+}
+
+/* Custom styles for form input fields */
+.form-control {
+    border-radius: 0;
+    width: 50%;
+}
+
+/* Custom styles for invalid feedback */
+.invalid-feedback {
+    color: #dc3545;
+    /* Adjust color as needed */
+}
+
+/* Custom styles for submit button */
+.btn-primary {
+    background-color: #007bff;
+    /* Adjust background color as needed */
+    border-color: #007bff;
+    /* Adjust border color as needed */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    /* Adjust hover background color as needed */
+    border-color: #0056b3;
+    /* Adjust hover border color as needed */
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.5);
+    /* Adjust focus shadow color as needed */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.reviews {
+    margin-top: 20px;
+}
+
+.review {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review h3 {
+    color: #333;
+}
+
+.review p {
+    color: #666;
+}
+
+/* List styling */
+.authors-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+}
+
+/* List item styling */
+.authors-container ul li {
+    font-size: 18px;
+    color: #666;
+    /* Adjust color as needed */
+    margin-bottom: 10px;
+}
+
+/* Hover effect on list items */
+.authors-container ul li:hover {
+    color: #000;
+    /* Adjust hover color as needed */
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.authors-container h1 {
+    padding-left: 20px;
+    /* Add left padding */
+}
+
+/* 
+.footer{
+    background: url(blue_background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 3rem;
+}
+
+.footer .box-container .box h3{
+    color: var(--white);
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.footer .box-container .box a{
+    color: var(--light-white);
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+}
+
+.footer .box-container .box a i{
+    color: var(--light-white);
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .credit{
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    border-top: .1rem solid var(--light-white);
+    font-size: 2rem;
+    color: var(--white);
+} */
+
+/* section{
+    padding: 5rem 10%;
+} */
+
+.footer {
+    background: url(blue_background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    /* Set text color to white */
+    font-size: 14px;
+    /* Decrease the font size */
+    padding: 3rem 0;
+    /* Adjust padding */
+    padding-right: 1px;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+    grid-column-gap: 0px;
+    padding-left: 20px;
+
+}
+
+.footer .box-container .box h3 {
+    font-size: 20px;
+    /* Decrease the font size */
+    padding-bottom: 1.5rem;
+    /* Adjust padding */
+}
+
+.footer .box-container .box a {
+    font-size: 14px;
+    /* Decrease the font size */
+    padding-bottom: 1rem;
+    /* Adjust padding */
+    display: block;
+    color: white;
+}
+
+.footer .box-container .box a i {
+    padding-right: 0.5rem;
+    transition: 0.2s linear;
+    color: white;
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 1rem;
+}
+
+.footer .credit {
+    text-align: center;
+    padding-top: 2rem;
+    /* Adjust padding */
+    margin-top: 2rem;
+    /* Adjust margin */
+    border-top: 0.1rem solid var(--light-white);
+    font-size: 16px;
+    /* Decrease the font size */
+    padding-bottom: 5px;
+}
