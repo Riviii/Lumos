@@ -34,9 +34,12 @@ Discover a seamless browsing experience through Lumos' user-friendly web interfa
 **List of Authors:** Discover authors and their works, expanding your literary horizons.
 ![Authors](https://github.com/Riviii/Lumos/assets/75086073/0589a1aa-b55a-42a9-8af7-1ed6d2704118)
 
+**Books by Authors:** Enter the name of an author to view all their works.
+![BooksbyA](https://github.com/Riviii/Lumos/assets/75086073/3b442603-98d2-44f6-a1d9-983d96cbd1ec)
+
 **Contact Us:** Reach out to us with any inquiries, feedback, or suggestions. Your input helps us improve Lumos for everyone's benefit.
 ![Contact](https://github.com/Riviii/Lumos/assets/75086073/865a4f9b-a83e-4a18-acc0-5d98f29d72a3)
 
 **Contributions Welcome:** We invite you to contribute to Lumos by opening issues, submitting pull requests, or providing feedback. Together, let's create an enriching reading environment for all.
 
-**Happy reading with Lumos!**
+## Happy reading with Lumos!
