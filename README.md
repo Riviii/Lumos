@@ -1,32 +1,36 @@
-# Book_Recommendation_System
+# Lumos: Book Recommendation System & Review Platform
 
-This system combines popularity-based and collaborative filtering techniques to provide personalized book recommendations tailored to your interests. The popularity-based recommendations ensure that you discover trending and widely-loved books, while collaborative filtering enhances the suggestions based on the preferences of users with similar tastes.
+Lumos is more than just a book recommendation system; it's a platform designed to illuminate your reading journey. With a blend of popularity-based suggestions and collaborative filtering, Lumos ensures that every book recommendation resonates with your unique interests. Plus, now you can engage with the community by publishing and reading reviews right within the platform.
 
 
 ## **How It Works**
 
-The system uses a combination of algorithms to enhance your reading experience:
+Lumos employs sophisticated algorithms to tailor recommendations to your preferences:
 
-**Popularity-Based Recommendations:** Discover books loved by the community at large, ensuring you don't miss out on widely acclaimed titles.
+**Popularity-Based Recommendations:** Explore the pulse of the reading community with trending and widely-loved book suggestions.
 
-**Collaborative Filtering:** Leverage the preferences of users with similar tastes to receive personalized suggestions that go beyond popularity.
+**Collaborative Filtering:** Dive deeper into personalized recommendations, curated based on the preferences of users with similar tastes.
 
 
 ## **Web Interface**
 
-The web interface is designed for a seamless experience:
+Discover a seamless browsing experience through Lumos' user-friendly web interface:
 
-**Homepage:** Displays the top 50 books recommended by the system, offering a quick overview of popular choices.
+**Home Page:** Get an overview of Lumos and its features, guiding you through your book discovery journey.
+![Home](https://raw.githubusercontent.com/YourUsername/YourRepositoryName/main/images/Home.png)
 
-![BookRec_Top50](https://github.com/Riviii/Book_Recommendation_System/assets/75086073/9f3947f5-0830-45f2-91bc-dd1447dda079)
+**Trending:** Explore the top 50 books recommended by Lumos, providing insights into popular choices within the community.
 
+**Recommend:** Input the name of a book and receive instant recommendations tailored to your tastes, powered by collaborative filtering.
 
-**Recommendation Input:** On the next page, use the input text box to enter the name of a book. Receive instant recommendations based on collaborative filtering.
+**Read Reviews:** Dive into insightful reviews published by fellow readers, gaining valuable perspectives on various books.
 
-![BookRec](https://github.com/Riviii/Book_Recommendation_System/assets/75086073/979072bc-59b5-4353-8a7c-7edb85b036df)
+**Publish Reviews:** Share your thoughts and opinions by publishing reviews, contributing to the Lumos community.
 
+**List of Authors:** Discover authors and their works, expanding your literary horizons.
 
+**Contact Us:** Reach out to us with any inquiries, feedback, or suggestions. Your input helps us improve Lumos for everyone's benefit.
 
-**Contributions are welcome! Feel free to open issues, submit pull requests, or provide feedback.**
+**Contributions Welcome:** We invite you to contribute to Lumos by opening issues, submitting pull requests, or providing feedback. Together, let's create an enriching reading environment for all.
 
-**Happy reading!**
+**Happy reading with Lumos!**
